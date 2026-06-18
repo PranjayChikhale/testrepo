@@ -13,3 +13,8 @@ class Book(db.Model):
     genre = db.Column(db.String(50), nullable=False)
     author_id = db.Column(db.Integer, db.ForeignKey('author.id'), nullable=False)
 
+
+
+class test(db.model):
+    pass
+    
